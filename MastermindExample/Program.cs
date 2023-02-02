@@ -59,4 +59,12 @@ do
 }
 while (attempts < 10 && !digitManager.won);
 
-Console.WriteLine("\nYou won!");
+if(digitManager.won)
+{
+    Console.WriteLine("\nYou won!");
+}
+else
+{
+    Console.WriteLine("\nBetter luck next time!");
+}
+
